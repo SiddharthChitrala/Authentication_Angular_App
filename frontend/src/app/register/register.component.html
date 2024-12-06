@@ -1,0 +1,72 @@
+<section id="section1">
+    <div class="container pt-5">
+        <div class="card ">
+            <h5 class="card-header justify-content-center d-flex">Sign up</h5>
+            <div class="card-body">
+                <form>
+    
+                    <div class="row">
+                        <div class="col-6">
+                            <!-- Username -->
+                            <div class="form-floating mb-3">
+                                <input type="username" class="form-control" id="username" placeholder="Full name"
+                                    name="username">
+                                <label for="username">Username</label>
+                            </div>
+    
+                            <!-- Email -->
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com"
+                                    name="email">
+                                <label for="email">Email</label>
+                            </div>
+    
+                            <!-- Gender -->
+                            <div class="form-floating mb-3 ">
+                                <select class="form-select form-control" id="gender" name="gender" placeholder="Sex"
+                                    required>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <label for="gender">Gender</label>
+                            </div>
+                        </div>
+    
+                        <div class="col-6">
+                            <!-- Date of Birth -->
+                            <div class="form-floating mb-3">
+                                <input type="date" class="form-control" id="dob" name="dob" placeholder="Date Of Birth"
+                                    required>
+                                <label for="dob">Date of Birth</label>
+                            </div>
+    
+                            <!-- Password -->
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control" id="password" name="password"
+                                    placeholder="Password" required>
+                                <label for="password">Password</label>
+                            </div>
+    
+                            <!-- Confirm Password -->
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control" id="confirmPassword" name="confirmPassword"
+                                    placeholder="Conform Password" required>
+                                <label for="confirmPassword">Confirm Password</label>
+                            </div>
+                        </div>
+                    </div>
+                <div class="row">
+    
+                    <div class="col">
+                        <button type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
+                    </div>
+                    <div class="col">
+                        <a href="/login" class="w-100 btn btn-lg btn-secondary">Login</a>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

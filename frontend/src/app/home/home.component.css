@@ -1,0 +1,10 @@
+.container-fluid {
+    width: 60%;
+    max-width: 100%;
+}
+
+.container-fluid img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
